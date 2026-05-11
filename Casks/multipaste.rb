@@ -2,8 +2,7 @@ cask "multipaste" do
   version "1.2.0"
   sha256 "1f203587f1aa2ed035c6db57fd41884e6b57d15cef9289e1dad3251ec42c5e5b"
 
-  url "https://github.com/NewdlDewdl/multipaste/releases/download/v#{version}/Multipaste-#{version}.dmg",
-      verified: "github.com/NewdlDewdl/multipaste/"
+  url "https://github.com/NewdlDewdl/multipaste/releases/download/v#{version}/Multipaste-#{version}.dmg"
   name "Multipaste"
   desc "Clipboard history and snippet expansion for macOS"
   homepage "https://github.com/NewdlDewdl/multipaste"
