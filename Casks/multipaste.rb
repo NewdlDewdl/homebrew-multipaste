@@ -1,6 +1,6 @@
 cask "multipaste" do
-  version "1.4.0"
-  sha256 "30dc57dd7788abd7136028eb81be7e682ec0f4cdfc9ce7d62142a62d8fed648d"
+  version "1.5.0"
+  sha256 "a77bf5a0faac355466d06d849ec7abfa76c0718013753beb9dca4a0c9cbfd769"
 
   url "https://github.com/NewdlDewdl/multipaste/releases/download/v#{version}/Multipaste-#{version}.dmg"
   name "Multipaste"
