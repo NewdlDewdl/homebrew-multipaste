@@ -1,10 +1,10 @@
 cask "multipaste" do
-  version "1.9.0"
-  sha256 "a3af6b264df1c2f2448d4562c26a48de1c46a53cb54ed1b5af5211044b8db549"
+  version "2.0.0"
+  sha256 "e354fcb3ac1382fc2b18d557d2ec0ee44230db64b70719944a388773ca5d51ba"
 
   url "https://github.com/NewdlDewdl/multipaste/releases/download/v#{version}/Multipaste-#{version}.dmg"
   name "Multipaste"
-  desc "Clipboard history and snippet expansion for macOS"
+  desc "Clipboard history and snippet expansion"
   homepage "https://github.com/NewdlDewdl/multipaste"
 
   livecheck do
@@ -18,9 +18,9 @@ cask "multipaste" do
 
   zap trash: [
     "~/Library/Application Support/Multipaste",
-    "~/Library/Preferences/com.rohin.multipaste.plist",
+    "~/Library/Caches/com.rohin.multipaste",
     "~/Library/LaunchAgents/com.rohin.multipaste.plist",
     "~/Library/Logs/Multipaste",
-    "~/Library/Caches/com.rohin.multipaste",
+    "~/Library/Preferences/com.rohin.multipaste.plist",
   ]
 end
